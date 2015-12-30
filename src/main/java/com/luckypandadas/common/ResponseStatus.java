@@ -5,7 +5,7 @@ package com.luckypandadas.common;
  */
 public enum ResponseStatus {
 
-    SUCCESS(200, "操作成功！"),
+    SUCCESS(200, "成功！"),
     ERROR(500, "服务器未知错误！"),
     UNAUTHORIZED(401, "没有登录！"),
     FORBIDDEN(403, "没有权限！"),

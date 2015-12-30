@@ -2,10 +2,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:task="http://www.springframework.org/schema/task"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
        http://www.springframework.org/schema/context
-       http://www.springframework.org/schema/context/spring-context.xsd">
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
     <!-- 启用spring mvc 内建的Jackson支持  -->
     <!-- 设置json和response的字符编码 -->
@@ -39,6 +42,19 @@
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
     <!-- <context:annotation-config />-->
+    <context:annotation-config />
+
+    <!--<bean id="logInterceptor" class="com.luckypandadas.common.annotation.LoggerAnnotationInterceptor"></bean>
+    <aop:config>
+        <aop:pointcut expression="execution(public * com.luckypandadas.service..*.*(..))"
+                      id="servicePointcut"/>
+        <aop:aspect id="logAspect" ref="logInterceptor">
+            <aop:before method="before"  pointcut-ref="servicePointcut" />
+        </aop:aspect>
+
+    </aop:config>-->
+    <!-- 开始aop支持，动态代理支持 -->
+    <aop:aspectj-autoproxy expose-proxy="true" proxy-target-class="true" />
 
     <!-- 导入mongodb的配置文件 -->
     <import resource="mongodb-context.xml"/>

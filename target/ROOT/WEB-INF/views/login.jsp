@@ -20,7 +20,7 @@
                 var loginName = $("input[name='loginName']").val();
                 var passWord = $("input[name='passWord']").val();
                 var code = $("input[name='securityCode']").val();
-                var params = "{\"user\":{\"telephone\":\"" + loginName + "\",\"password\":\"" + passWord + "\",\"securityCode\":\"" + code + "\"},\"rePassword\":\"\",\"securityCode\":\"\"}";
+                var params = "{\"user\":{\"telephone\":\"" + loginName + "\",\"password\":\"" + passWord + "\"},\"rePassword\":\"\",\"securityCode\":\"" + code + "\"}";
 
                 $.post(url, {"param": params}, function (data) {
                     $("#span").html(data.status + data.message + "" + data.data);
@@ -32,7 +32,7 @@
 <body>
 <form action="${tag eq 1 ? '/users/login' : '/users/signUp'}" method="post" id="form">
     <p><input type="text" name="loginName" value="12341"></p>
-    <p><input type="password" name="passWord" value="123456."></p>
+    <p><input type="text" name="passWord" value="1234567."></p>
     <p><input type="text" name="securityCode" value="123456"></p>
     <a id="asd" href="javascript:void(0)">提交</a>
 </form>

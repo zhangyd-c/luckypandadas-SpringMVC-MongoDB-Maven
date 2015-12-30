@@ -2,6 +2,8 @@ package com.luckypandadas.service.impl;
 
 import com.luckypandadas.common.ResponseStatus;
 import com.luckypandadas.common.ResponseVo;
+import com.luckypandadas.common.annotation.LoggerAnnotation;
+import com.luckypandadas.common.base.BaseUtil;
 import com.luckypandadas.common.base.PageVo;
 import com.luckypandadas.dao.IUserDao;
 import com.luckypandadas.model.User;
@@ -35,6 +37,7 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "getList")
     public List<User> getList(PageVo<User> vo) throws Exception {
         return userDao.getList(vo);
     }
@@ -47,6 +50,7 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "update")
     public void update(User entity) throws Exception {
         userDao.update(entity);
     }
@@ -59,6 +63,7 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "save")
     public void save(User entity) throws Exception {
         userDao.save(entity);
     }
@@ -70,12 +75,14 @@ public class UserServiceImpl implements IUserService {
      * @return
      * @throws Exception
      */
+    @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "signUp")
     public ResponseVo signUp(String param) throws Exception {
         ResponseVo responseVo = null;
         if (StringUtil.isEmpty(param)) {
             return new ResponseVo(ResponseStatus.EMPTY_PARAM);
         }
-        UserVO userVO = json2User(param);
+        UserVO userVO = BaseUtil.json2User(param);
         if (userVO == null) {
             return new ResponseVo(ResponseStatus.DATA_PARSE_ERROR);
         }
@@ -102,6 +109,7 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "insert")
     public void insert(User entity) throws Exception {
         userDao.insert(entity);
     }
@@ -115,6 +123,7 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "getByTel")
     public User getByTel(String tel) throws Exception {
         return userDao.getByTel(tel);
     }
@@ -127,6 +136,7 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "delete")
     public void delete(User entity) throws Exception {
         userDao.delete(entity);
     }
@@ -139,6 +149,7 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "updatePicture")
     public void updatePicture(User entity) throws Exception {
         userDao.updatePicture(entity);
     }
@@ -151,11 +162,12 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "updatePassword")
     public ResponseVo updatePassword(String param) throws Exception {
         if (StringUtil.isEmpty(param)) {
             return new ResponseVo(ResponseStatus.EMPTY_PARAM);
         }
-        UserVO userVO = json2User(param);
+        UserVO userVO = BaseUtil.json2User(param);
         if (userVO == null) {
             return new ResponseVo(ResponseStatus.DATA_PARSE_ERROR);
         }
@@ -169,18 +181,6 @@ public class UserServiceImpl implements IUserService {
         return new ResponseVo(ResponseStatus.SUCCESS, userVO.getUser());
     }
 
-    private UserVO json2User(String param) {
-        UserVO userVO = null;
-        try {
-            JSONObject obj = JSONObject.fromObject(param);
-            User user = (User) JSONObject.toBean(JSONObject.fromObject(obj.get("user")), User.class);
-            userVO = new UserVO(user, obj.get("securityCode").toString(), obj.get("rePassword").toString());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return userVO;
-    }
-
     /**
      * 修改状态
      *
@@ -189,12 +189,13 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "updateStatus")
     public ResponseVo updateStatus(String param) throws Exception {
         if (StringUtil.isEmpty(param)) {
             return new ResponseVo(ResponseStatus.EMPTY_PARAM);
         }
 
-        UserVO userVO = json2User(param);
+        UserVO userVO = BaseUtil.json2User(param);
         if (userVO == null) {
             return new ResponseVo(ResponseStatus.DATA_PARSE_ERROR);
         }
@@ -212,8 +213,10 @@ public class UserServiceImpl implements IUserService {
      * @return
      * @throws Exception
      */
+    @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "modify")
     public ResponseVo modify(String param) throws Exception {
-        UserVO userVO = json2User(param);
+        UserVO userVO = BaseUtil.json2User(param);
         if (userVO == null) {
             return new ResponseVo(ResponseStatus.DATA_PARSE_ERROR);
         }
@@ -230,6 +233,7 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "getByEmail")
     public User getByEmail(String email) throws Exception {
         return userDao.getByEmail(email);
     }
@@ -243,12 +247,13 @@ public class UserServiceImpl implements IUserService {
      * @author yadong.zhang
      */
     @Override
+    @LoggerAnnotation(level = 2, className = "UserServiceImpl", methodName = "login")
     public ResponseVo login(String param) throws Exception {
         ResponseVo responseVo = null;
         if (StringUtil.isEmpty(param)) {
             return new ResponseVo(ResponseStatus.EMPTY_PARAM);
         }
-        UserVO userVO = json2User(param);
+        UserVO userVO = BaseUtil.json2User(param);
         if (userVO == null) {
             return new ResponseVo(ResponseStatus.DATA_PARSE_ERROR);
         }
@@ -256,7 +261,7 @@ public class UserServiceImpl implements IUserService {
         if (_user == null) {
             responseVo = new ResponseVo(ResponseStatus.LOGIN_ERROR);
         } else {
-            responseVo = new ResponseVo(ResponseStatus.EMPTY_PARAM, _user);
+            responseVo = new ResponseVo(ResponseStatus.SUCCESS, _user);
         }
         return responseVo;
     }

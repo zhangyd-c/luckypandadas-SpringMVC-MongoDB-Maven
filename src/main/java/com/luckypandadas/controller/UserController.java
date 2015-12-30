@@ -2,6 +2,7 @@ package com.luckypandadas.controller;
 
 import com.luckypandadas.common.*;
 import com.luckypandadas.common.ResponseStatus;
+import com.luckypandadas.common.annotation.LoggerAnnotation;
 import com.luckypandadas.exception.NoticeException;
 import com.luckypandadas.model.User;
 import com.luckypandadas.service.IUserService;
@@ -27,6 +28,7 @@ public class UserController {
     @Autowired
     private IUserService userService;
 
+    @LoggerAnnotation(level = 1, className = "UserController", methodName = "goLogin")
     @RequestMapping("/goLogin")
     public ModelAndView goLogin() {
         ModelAndView mv = new ModelAndView("/login");
@@ -34,6 +36,7 @@ public class UserController {
         return mv;
     }
 
+    @LoggerAnnotation(level = 1, className = "UserController", methodName = "goSignup")
     @RequestMapping("/goSignup")
     public ModelAndView goSignup() {
         ModelAndView mv = new ModelAndView("/login");
@@ -41,6 +44,7 @@ public class UserController {
         return mv;
     }
 
+    @LoggerAnnotation(level = 1, className = "UserController", methodName = "goUpdatePassword")
     @RequestMapping("/goUpdatePassword/{tel}")
     public ModelAndView goUpdatePassword(@PathVariable("tel") String tel) {
         ModelAndView mv = new ModelAndView("/update");
@@ -53,6 +57,7 @@ public class UserController {
         return mv;
     }
 
+    @LoggerAnnotation(level = 1, className = "UserController", methodName = "goUpdateStatus")
     @RequestMapping("/goUpdateStatus/{tel}")
     public ModelAndView goUpdateStatus(@PathVariable("tel") String tel) {
         ModelAndView mv = new ModelAndView("/update");
@@ -65,6 +70,7 @@ public class UserController {
         return mv;
     }
 
+    @LoggerAnnotation(level = 1, className = "UserController", methodName = "login")
     @RequestMapping("/login")
     @ResponseBody
     public ResponseVo login(String param) {
@@ -76,6 +82,7 @@ public class UserController {
         }
     }
 
+    @LoggerAnnotation(level = 1, className = "UserController", methodName = "signUp")
     @RequestMapping("/signUp")
     @ResponseBody
     public ResponseVo signUp(String param) {
@@ -87,6 +94,7 @@ public class UserController {
         }
     }
 
+    @LoggerAnnotation(level = 1, className = "UserController", methodName = "modify")
     @RequestMapping("/modify")
     @ResponseBody
     public ResponseVo modify(String param) {
@@ -98,6 +106,7 @@ public class UserController {
         }
     }
 
+    @LoggerAnnotation(level = 1, className = "UserController", methodName = "updatePassword")
     @RequestMapping("/updatePassword")
     @ResponseBody
     public ResponseVo updatePassword(String param) {
@@ -109,6 +118,7 @@ public class UserController {
         }
     }
 
+    @LoggerAnnotation(level = 1, className = "UserController", methodName = "updateStatus")
     @RequestMapping("/updateStatus")
     @ResponseBody
     public ResponseVo updateStatus(String param) {

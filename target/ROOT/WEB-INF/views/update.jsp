@@ -20,7 +20,6 @@
                 var passWord = $("input[name='passWord']").val();
                 var rePassWord = $("input[name='rePassWord']").val();
                 var status = $("#status").val();
-                alert(status);
                 var code = $("input[name='securityCode']").val();
                 var params = "";
                 if (tag == 1) {//status
