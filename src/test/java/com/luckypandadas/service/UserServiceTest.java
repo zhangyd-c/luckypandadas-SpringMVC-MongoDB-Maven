@@ -1,9 +1,11 @@
 package com.luckypandadas.service;
 
 import com.luckypandadas.common.Constants;
+import com.luckypandadas.common.ResponseStatus;
+import com.luckypandadas.common.ResponseVo;
 import com.luckypandadas.main.JUnitMainUtil;
 import com.luckypandadas.model.User;
-import com.luckypandadas.utils.StringBuildUtils;
+import com.luckypandadas.utils.MessageFormatUtils;
 import net.sf.json.JSONObject;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -138,7 +140,21 @@ public class UserServiceTest extends JUnitMainUtil {
     @Test
     public void aaaaa(){
         String aa = JSONObject.fromObject(getUser()).toString();
-        String result = StringBuildUtils.getJsonStr(aa);
+        String result = MessageFormatUtils.getJsonStr(aa);
         System.err.println(result);
+    }
+    @Test
+    public  void resTest(){
+        ResponseVo s = new ResponseVo(ResponseStatus.ERROR);
+        System.err.println(s.toString());
+
+        System.err.println(ResponseStatus.valueOf("SUCCESS"));
+    }
+    @Test
+    public void enumTest(){
+        // 遍历获取枚举类中的所以枚举值
+        for(ResponseStatus r : ResponseStatus.values()){
+            System.err.println( r.VALUE + "--" + r.MESSAGE);
+        }
     }
 }

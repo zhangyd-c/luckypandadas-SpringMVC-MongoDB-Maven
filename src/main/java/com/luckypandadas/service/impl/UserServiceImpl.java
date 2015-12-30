@@ -1,26 +1,19 @@
 package com.luckypandadas.service.impl;
 
-import com.luckypandadas.common.Constants;
+import com.luckypandadas.common.ResponseStatus;
 import com.luckypandadas.common.ResponseVo;
 import com.luckypandadas.common.base.PageVo;
 import com.luckypandadas.dao.IUserDao;
 import com.luckypandadas.model.User;
 import com.luckypandadas.model.vo.UserVO;
 import com.luckypandadas.service.IUserService;
-import com.luckypandadas.utils.StringBuildUtils;
 import com.luckypandadas.utils.StringUtil;
 import net.sf.json.JSONObject;
-import org.codehaus.jackson.map.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Sort;
-import org.springframework.data.mongodb.core.MongoTemplate;
 ;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Order;
-import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
 /**
@@ -80,23 +73,23 @@ public class UserServiceImpl implements IUserService {
     public ResponseVo signUp(String param) throws Exception {
         ResponseVo responseVo = null;
         if (StringUtil.isEmpty(param)) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "参数错误");
+            return new ResponseVo(ResponseStatus.EMPTY_PARAM);
         }
         UserVO userVO = json2User(param);
         if (userVO == null) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "json解析异常");
+            return new ResponseVo(ResponseStatus.DATA_PARSE_ERROR);
         }
         System.err.println(userVO.getSecurityCode());
         if (!"123456".equals(userVO.getSecurityCode())) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "验证码错误！");
+            return new ResponseVo(ResponseStatus.SECURITY_CODE_ERROR);
         }
         User _user = userDao.getByTel(userVO.getUser().getTelephone());
         if (_user == null) {
             _user = new User(userVO.getUser().getTelephone(), userVO.getUser().getPassword());
             userDao.save(_user);
-            responseVo = new ResponseVo(Constants.RESPONSE_CODE_200, "注册成功！", userVO.getUser());
+            responseVo = new ResponseVo(ResponseStatus.SUCCESS, userVO.getUser());
         } else {
-            responseVo = new ResponseVo(Constants.RESPONSE_CODE_500, "已存在的用户！");
+            responseVo = new ResponseVo(ResponseStatus.USER_EXIST);
         }
         return responseVo;
     }
@@ -160,20 +153,20 @@ public class UserServiceImpl implements IUserService {
     @Override
     public ResponseVo updatePassword(String param) throws Exception {
         if (StringUtil.isEmpty(param)) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "参数错误");
+            return new ResponseVo(ResponseStatus.EMPTY_PARAM);
         }
         UserVO userVO = json2User(param);
         if (userVO == null) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "json解析异常");
+            return new ResponseVo(ResponseStatus.DATA_PARSE_ERROR);
         }
         if (!"123456".equals(userVO.getSecurityCode())) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "验证码错误！");
+            return new ResponseVo(ResponseStatus.SECURITY_CODE_ERROR);
         }
         if (!userVO.getRePassword().equals(userVO.getPassword())) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "密码不一致！");
+            return new ResponseVo(ResponseStatus.PASSWORD_ERROR);
         }
         userDao.updatePassword(userVO.getUser());
-        return new ResponseVo(Constants.RESPONSE_CODE_200, "密码修改成功！", userVO.getUser());
+        return new ResponseVo(ResponseStatus.SUCCESS, userVO.getUser());
     }
 
     private UserVO json2User(String param) {
@@ -189,24 +182,6 @@ public class UserServiceImpl implements IUserService {
     }
 
     /**
-     * 将json转化为实体POJO
-     *
-     * @param jsonStr
-     * @param obj
-     * @return
-     */
-    public static <T> Object JSONToObj(String jsonStr, Class<T> obj) {
-        T t = null;
-        try {
-            ObjectMapper objectMapper = new ObjectMapper();
-            t = objectMapper.readValue(jsonStr, obj);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return t;
-    }
-
-    /**
      * 修改状态
      *
      * @param param
@@ -216,17 +191,18 @@ public class UserServiceImpl implements IUserService {
     @Override
     public ResponseVo updateStatus(String param) throws Exception {
         if (StringUtil.isEmpty(param)) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "参数错误");
+            return new ResponseVo(ResponseStatus.EMPTY_PARAM);
         }
+
         UserVO userVO = json2User(param);
         if (userVO == null) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "json解析异常");
+            return new ResponseVo(ResponseStatus.DATA_PARSE_ERROR);
         }
         if (!"123456".equals(userVO.getSecurityCode())) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "验证码错误！");
+            return new ResponseVo(ResponseStatus.SECURITY_CODE_ERROR);
         }
         userDao.updateStatus(userVO.getUser());
-        return new ResponseVo(Constants.RESPONSE_CODE_200, "修改成功！", userVO.getUser());
+        return new ResponseVo(ResponseStatus.SUCCESS, userVO.getUser());
     }
 
     /**
@@ -239,10 +215,10 @@ public class UserServiceImpl implements IUserService {
     public ResponseVo modify(String param) throws Exception {
         UserVO userVO = json2User(param);
         if (userVO == null) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "json解析异常");
+            return new ResponseVo(ResponseStatus.DATA_PARSE_ERROR);
         }
         userDao.update(userVO.getUser());
-        return new ResponseVo(Constants.RESPONSE_CODE_200, "修改成功！", userVO.getUser());
+        return new ResponseVo(ResponseStatus.SUCCESS, userVO.getUser());
     }
 
     /**
@@ -270,17 +246,17 @@ public class UserServiceImpl implements IUserService {
     public ResponseVo login(String param) throws Exception {
         ResponseVo responseVo = null;
         if (StringUtil.isEmpty(param)) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "参数错误");
+            return new ResponseVo(ResponseStatus.EMPTY_PARAM);
         }
         UserVO userVO = json2User(param);
         if (userVO == null) {
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "json解析异常");
+            return new ResponseVo(ResponseStatus.DATA_PARSE_ERROR);
         }
         User _user = userDao.login(userVO.getUser().getTelephone(), userVO.getUser().getPassword());
         if (_user == null) {
-            responseVo = new ResponseVo(Constants.RESPONSE_CODE_500, "用户名或密码错误！");
+            responseVo = new ResponseVo(ResponseStatus.LOGIN_ERROR);
         } else {
-            responseVo = new ResponseVo(Constants.RESPONSE_CODE_200, "登录成功！", _user);
+            responseVo = new ResponseVo(ResponseStatus.EMPTY_PARAM, _user);
         }
         return responseVo;
     }

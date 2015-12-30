@@ -9,7 +9,7 @@ import java.text.MessageFormat;
  * Date：2015/12/29
  * Time：10:49
  */
-public class StringBuildUtils {
+public class MessageFormatUtils {
     private static final String GET_USER_JSON = "user:{0},rePassword:{1},securityCode:{2}";
 
 

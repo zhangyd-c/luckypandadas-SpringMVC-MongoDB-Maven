@@ -2,231 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac08cc6-575d-4f84-bcf1-c14dcce3bea9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/commons-lang-2.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/spring-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/luckypandadas/service/UserServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/base/IBaseDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/luckypandadas/main/JUnitMainUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/httpcore-4.4.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/luckypandadas_Mon_Dec_28_18-18-22_CST_2015.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-starter-logging-1.2.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/base/BaseModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/commons-httpclient-3.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/mvc-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/log4j-1.2.17.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/asm-4.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/json-lib-2.2.3-jdk15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/cglib-3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/ezmorph-1.0.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mongodb-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/core-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/service/IUserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/controller/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-expression-3.2.11.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/exception/NoticeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/javase-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/service/IUserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jackson-databind-2.3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/hibernate-validator-5.1.3.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/spring-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/converter/String2TimeStampConverter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/xml-apis-1.0.b2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/luckypandadas.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/luckypandadas.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mysql-connector-java-5.1.30.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mybatis-spring-1.2.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/base/IBaseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/luckypandadas/main/JUnitMainUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/snakeyaml-1.14.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/service/impl/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/luckypandadas_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/slf4j-api-1.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/base/PageVo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-tx-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jcl-over-slf4j-1.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/commons-logging-1.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_5_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/aspectjweaver-1.8.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jackson-core-asl-1.9.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/service/impl/UserServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/base/BaseException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/converter/String2TimeStampConverter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jackson-mapper-asl-1.9.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/dao/IUserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/base/BaseModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jdom-1.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-jdbc-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/mvc-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/druid-1.0.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/dao/IUserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/spring-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jaxen-1.1.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/common/ResponseVo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-webmvc-3.2.11.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/tomcat-embed-logging-juli-8.0.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/common/base/PageVo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/tomcat-embed-el-8.0.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/commons-codec-1.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mybatis-3.2.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-context-support-3.2.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-core-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-1.2.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jackson-annotations-2.3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_luckypandadas.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/httpclient-4.4.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/ResponseVo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-starter-tomcat-1.2.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/common/base/BaseModel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/base/BaseException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/logback-core-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/luckypandadas.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/log4j-over-slf4j-1.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/classmate-1.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/views/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_10_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/controller/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mongodb-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/tomcat-embed-websocket-8.0.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mvc-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/commons-beanutils-1.7.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/common/Constants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/mongodb-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jul-to-slf4j-1.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/service/IUserService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/common/base/BaseException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mongo-java-driver-2.10.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-autoconfigure-1.2.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/exception/NoticeException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mvc-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/dao/IUserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/common/ResponseStatus.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/commons-collections-3.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-data-mongodb-1.2.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-data-commons-1.5.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/logback-classic-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-aop-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-beans-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/ResponseStatus.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/converter/String2TimeStampConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-starter-1.2.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/base/PageVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module_luckypandadas_Mon_Dec_28_18-16-21_CST_2015.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/exception/NoticeException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/luckypandadas/common/base/IBaseDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/tomcat-embed-core-8.0.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-web-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/luckypandadas_Mon_Dec_28_18-16-21_CST_2015.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-starter-web-1.2.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jackson-core-2.3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-context-4.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/Constants.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/com/luckypandadas/service/UserServiceTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/luckypandadas_war_exploded.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/luckypandadas/utils/StringBuildUtils.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/ResponseStatus.class" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/ResponseStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/ResponseVo.class" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/common/ResponseVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/luckypandadas/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/luckypandadas/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/luckypandadas/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/luckypandadas/service/UserServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/luckypandadas/service/UserServiceTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseStatus.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypandadas/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/luckypandadas/service/UserServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/luckypandadas/service/UserServiceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/luckypandadas/utils/StringBuildUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/luckypandadas/utils/MessageFormatUtils.java" />
     </list>
     <ignored path="luckypandadas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -260,7 +48,53 @@
     <favorites_list name="luckypandadas" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="248" column="48" selection-start-line="248" selection-start-column="34" selection-end-line="248" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luckypandadas/service/UserServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51005024">
+              <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
+              <folding>
+                <element signature="method#getListTest#0;class#UserServiceTest#0" expanded="false" />
+                <element signature="method#saveTest#0;class#UserServiceTest#0" expanded="false" />
+                <element signature="method#insertTest#0;class#UserServiceTest#0" expanded="false" />
+                <element signature="method#updateTest#0;class#UserServiceTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -293,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/base/IBaseMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/mapper/IUserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatisMapper/SysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/IUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/service/IBaseMongoDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
@@ -306,7 +139,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/converter/String2TimeStampConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseVo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/service/IUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/base/BaseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/Constants.java" />
@@ -322,9 +154,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/model/vo/UserVO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/utils/StringBuildUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luckypandadas/utils/MessageFormatUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/luckypandadas/service/UserServiceTest.java" />
       </list>
     </option>
@@ -576,6 +412,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="luckypandadas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="luckypandadas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="luckypandadas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="luckypandadas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="luckypandadas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="luckypandadas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -618,33 +514,7 @@
       <recent name="D:\code idea\luckypandadas\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.aaaaa">
-    <configuration default="false" name="UserServiceTest.getListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.luckypandadas.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="luckypandadas" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.luckypandadas.service" />
-      <option name="MAIN_CLASS_NAME" value="com.luckypandadas.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="getListTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserServiceTest.enumTest">
     <configuration default="false" name="UserServiceTest.getByTelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -658,32 +528,6 @@
       <option name="PACKAGE_NAME" value="com.luckypandadas.service" />
       <option name="MAIN_CLASS_NAME" value="com.luckypandadas.service.UserServiceTest" />
       <option name="METHOD_NAME" value="getByTelTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UserServiceTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.luckypandadas.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="luckypandadas" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.luckypandadas.service" />
-      <option name="MAIN_CLASS_NAME" value="com.luckypandadas.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -736,6 +580,58 @@
       <option name="PACKAGE_NAME" value="com.luckypandadas.service" />
       <option name="MAIN_CLASS_NAME" value="com.luckypandadas.service.UserServiceTest" />
       <option name="METHOD_NAME" value="aaaaa" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceTest.resTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.luckypandadas.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="luckypandadas" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.luckypandadas.service" />
+      <option name="MAIN_CLASS_NAME" value="com.luckypandadas.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="resTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserServiceTest.enumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.luckypandadas.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="luckypandadas" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.luckypandadas.service" />
+      <option name="MAIN_CLASS_NAME" value="com.luckypandadas.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="enumTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1295,19 +1191,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat7.0" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.getListTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceTest.getByTelTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceTest.loginTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.UserServiceTest.saveTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.UserServiceTest.aaaaa" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.getByTelTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceTest.saveTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceTest.aaaaa" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserServiceTest.resTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.UserServiceTest.enumTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceTest.aaaaa" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceTest.getByTelTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.saveTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceTest.loginTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceTest.getListTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserServiceTest.enumTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceTest.resTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceTest.aaaaa" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserServiceTest.getByTelTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserServiceTest.saveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1328,26 +1224,11 @@
       <workItem from="1451296115059" duration="2167000" />
       <workItem from="1451350527367" duration="10032000" />
       <workItem from="1451381489764" duration="2639000" />
-      <workItem from="1451439939506" duration="295000" />
+      <workItem from="1451439939506" duration="4199000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserServiceTest_aaaaa - 2015.12.29 at 17h 45m 24s.xml">
-      <configuration name="UserServiceTest.aaaaa" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_aaaaa - 2015.12.29 at 17h 45m 47s.xml">
-      <configuration name="UserServiceTest.aaaaa" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_aaaaa - 2015.12.29 at 17h 46m 29s.xml">
-      <configuration name="UserServiceTest.aaaaa" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_aaaaa - 2015.12.29 at 17h 47m 11s.xml">
-      <configuration name="UserServiceTest.aaaaa" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserServiceTest_aaaaa - 2015.12.29 at 17h 50m 56s.xml">
-      <configuration name="UserServiceTest.aaaaa" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserServiceTest_aaaaa - 2015.12.29 at 17h 54m 42s.xml">
       <configuration name="UserServiceTest.aaaaa" configurationId="JUnit" />
     </history-entry>
@@ -1357,6 +1238,21 @@
     <history-entry file="UserServiceTest_aaaaa - 2015.12.29 at 18h 16m 49s.xml">
       <configuration name="UserServiceTest.aaaaa" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceTest_enumTest - 2015.12.30 at 11h 21m 32s.xml">
+      <configuration name="UserServiceTest.enumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_resTest - 2015.12.30 at 10h 42m 49s.xml">
+      <configuration name="UserServiceTest.resTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_resTest - 2015.12.30 at 11h 15m 53s.xml">
+      <configuration name="UserServiceTest.resTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_resTest - 2015.12.30 at 11h 16m 43s.xml">
+      <configuration name="UserServiceTest.resTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest_resTest - 2015.12.30 at 11h 19m 12s.xml">
+      <configuration name="UserServiceTest.resTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="UserServiceTest_saveTest - 2015.12.25 at 14h 53m 08s.xml">
       <configuration name="UserServiceTest.saveTest" configurationId="JUnit" />
     </history-entry>
@@ -1365,7 +1261,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83189000" />
+    <option name="totallyTimeSpent" value="87093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1378,20 +1274,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33006537" sideWeight="0.4969743" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.875817" sideWeight="0.57261723" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18683812" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30228758" sideWeight="0.44251135" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18003026" sideWeight="0.4784946" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22692889" sideWeight="0.4784946" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17931548" sideWeight="0.52150536" order="3" side_tool="true" content_ui="tabs" />
@@ -1400,14 +1298,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3137255" sideWeight="0.42738277" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39215687" sideWeight="0.42738277" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33006537" sideWeight="0.4969743" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44117647" sideWeight="0.44251135" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1461,7 +1357,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/luckypandadas/service/UserServiceTest.java</url>
-          <line>23</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -1473,45 +1369,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java</url>
-          <line>80</line>
+          <line>73</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java</url>
-          <line>161</line>
+          <line>154</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java</url>
-          <line>217</line>
+          <line>192</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java</url>
-          <line>198</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java</url>
-          <line>181</line>
+          <line>174</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java</url>
-          <line>278</line>
+          <line>254</line>
           <properties />
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/server/Java/jdk1.7/jdk1.7.0_79/src.zip!/java/text/MessageFormat.java</url>
-          <line>425</line>
-          <properties />
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/server/Java/jdk1.7/jdk1.7.0_79/src.zip!/java/text/MessageFormat.java</url>
@@ -1519,17 +1403,11 @@
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/server/Java/jdk1.7/jdk1.7.0_79/src.zip!/java/text/MessageFormat.java</url>
-          <line>505</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="44" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1629,24 +1507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46341464">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/common/base/IBaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3327616">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39794168">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1661,13 +1525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24934383">
           <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19554031">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1750,6 +1607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="59" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1757,6 +1615,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.892858">
           <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1764,6 +1623,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.107143">
           <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1778,6 +1638,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16295026">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1785,6 +1646,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="65" column="5" selection-start-line="35" selection-start-column="4" selection-end-line="65" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1792,6 +1654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="20" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1799,14 +1662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="44" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1821,14 +1676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.642857">
           <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="183" column="108" selection-start-line="183" selection-start-column="108" selection-end-line="183" selection-end-column="108" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1857,6 +1704,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33236152">
           <caret line="643" column="0" selection-start-line="643" selection-start-column="0" selection-end-line="643" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1864,6 +1712,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33236152">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1871,36 +1720,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4431487">
           <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/utils/JsonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36507937">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.32590052">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="248" column="48" selection-start-line="248" selection-start-column="34" selection-end-line="248" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/server/Java/jdk1.7/jdk1.7.0_79/src.zip!/java/text/MessageFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16618076">
-          <caret line="499" column="0" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.72890025">
+          <caret line="519" column="7" selection-start-line="519" selection-start-column="7" selection-end-line="519" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/utils/StringBuildUtils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50145775">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23966943">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/utils/MessageFormatUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5703518">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luckypandadas/common/ResponseStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/luckypandadas/service/UserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33527696">
-          <caret line="137" column="9" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.51005024">
+          <caret line="154" column="24" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="24" />
           <folding>
             <element signature="method#getListTest#0;class#UserServiceTest#0" expanded="false" />
             <element signature="method#saveTest#0;class#UserServiceTest#0" expanded="false" />

@@ -28,14 +28,9 @@ public class ResponseVo implements Serializable {
         this.message = responseStatus.MESSAGE;
     }
 
-    public ResponseVo(Integer status, String message) {
-        this.status = status;
-        this.message = message;
-    }
-
-    public ResponseVo(Integer status, String message, Object data) {
-        this.status = status;
-        this.message = message;
+    public ResponseVo(ResponseStatus responseStatus, Object data) {
+        this.status = responseStatus.VALUE;
+        this.message = responseStatus.MESSAGE;
         this.data = data;
     }
 

@@ -1,7 +1,7 @@
 package com.luckypandadas.controller;
 
-import com.luckypandadas.common.Constants;
-import com.luckypandadas.common.ResponseVo;
+import com.luckypandadas.common.*;
+import com.luckypandadas.common.ResponseStatus;
 import com.luckypandadas.exception.NoticeException;
 import com.luckypandadas.model.User;
 import com.luckypandadas.service.IUserService;
@@ -72,7 +72,7 @@ public class UserController {
             return userService.login(param);
         } catch (Exception e) {
             e.printStackTrace();
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "系统异常！");
+            return new ResponseVo(ResponseStatus.ERROR);
         }
     }
 
@@ -83,7 +83,7 @@ public class UserController {
             return userService.signUp(param);
         } catch (Exception e) {
             e.printStackTrace();
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "系统异常！");
+            return new ResponseVo(ResponseStatus.ERROR);
         }
     }
 
@@ -94,7 +94,7 @@ public class UserController {
             return userService.modify(param);
         } catch (Exception e) {
             e.printStackTrace();
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "系统异常！");
+            return new ResponseVo(ResponseStatus.ERROR);
         }
     }
 
@@ -105,7 +105,7 @@ public class UserController {
             return userService.updatePassword(param);
         } catch (Exception e) {
             e.printStackTrace();
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "系统异常！");
+            return new ResponseVo(ResponseStatus.ERROR);
         }
     }
 
@@ -116,7 +116,7 @@ public class UserController {
             return userService.updateStatus(param);
         } catch (Exception e) {
             e.printStackTrace();
-            return new ResponseVo(Constants.RESPONSE_CODE_500, "系统异常！");
+            return new ResponseVo(ResponseStatus.ERROR);
         }
     }
 }
